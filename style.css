@@ -1,0 +1,192 @@
+body{
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgT7EFpQt10xY26m0UdG83C6eQTUu3tu5bf2FyqLllZ8thJ7PaJsoWn8nW2k8b-863_7yw6_viXqFEd491AmdeGE4Wh_KWRJ5umyeXBkwhLT3C1UTZFCSqhlEvta92hpiPveCnZtkzvkAyxnBZHtCSyNDmiXwDoyTfOr9SqTvoqbHk5apjxnxeprHevfd5S/s5600/%D8%AA%D8%AD%D9%88%D9%8A%D9%84%20%D8%A7%D9%84%D8%B5%D9%88%D8%B1%20%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A.jpg);
+    background-size:contain;
+    height: 100vh;
+}
+.parent{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    margin: 20px  8px;
+
+    
+    
+}
+img{
+    width: 300px;
+    border: 4px white solid;
+    border-radius: 20px ;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.img2{
+  display: flex;
+    justify-content: center;
+    
+}
+
+ul li{
+    display: inline-block;
+    flex-flow: column;
+    justify-content: flex-start;
+    margin: 20px;
+    font-size:x-large;
+    color:white;
+    text-decoration: none;
+    
+
+} 
+header{
+    display: flex;
+    position: fixed;
+    top:0;
+    flex-flow: row;
+    justify-content: center;
+    
+
+}   
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+a:hover
+{
+text-decoration:underline;
+}
+img:hover{
+    transform:translatey(-10px) ;
+
+}
+.mo{
+    position: fixed;
+    bottom: 270px;
+
+}
+.g{
+   height: 300px;
+    
+}
+.mo{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    margin: 50px  8px;
+    position: fixed;
+   right: 0px;
+   margin: 5px;
+}
+.gt{
+    
+    background-color: orangered;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 30px;
+    top: 0px 50px ;
+}
+ul li:hover{
+    transform: translatey(10px) ;
+    font-size: 30px;
+   
+    
+}
+.gradient-text:hover{
+    transform: translateY(10px);
+
+}
+h1 {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    text-align: center;
+    position: relative;
+    
+
+
+}
+.n{ 
+    display: inline-flex;
+    flex-direction:column;
+    width: 200px;
+    height: 205px;
+    border: 7px white solid;
+    padding-top: 30px;
+    border-radius:  10px  ;
+    margin: 30px;
+    padding: 70px ;
+    position: fixed;
+    top:310px;
+    background-color: white;
+    
+
+    
+   
+}
+input[type="text"]
+{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px ;
+    background-color:rgb(214, 187, 169);
+    color: black;
+     padding: 8px;
+    font-size: larger;
+    border: 1px black solid;
+    
+}
+input[type="password"]
+{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px ;
+    background-color:rgb(214, 187, 169);;
+    color:black;
+    padding: 8px;
+    font-size: large;
+    border: 1px black solid;
+
+
+    
+}
+input[type="button"]
+{
+   
+    height: 30px;
+    width: 170px;
+    border-radius: 20px ;
+    margin: 15px 2px;
+    background-color:orangered ;
+   padding: 18px;
+   font-size: 10px
+   
+   
+    
+}
+
+.v {
+    font-size: large;
+    padding:50px;
+
+}
+.n:hover{
+    transform: translatey(20px);
+    
+}
+.c{
+    text-decoration:underline ;
+    font-size: x-large;
+    padding:top 10px 5px;
+
+}
+input{
+   margin-top: 30px;
+    
+}
+
+
+
+
+
+
